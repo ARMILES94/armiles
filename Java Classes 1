@@ -1,0 +1,37 @@
+//Basic program on java class
+
+
+
+class subject {
+    
+    String name ;
+    int marks ;
+    
+    public void info(){
+        System.out.println(this.name);
+        
+        System.out.println(this.marks);
+    }
+    
+    
+}
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    subject A1 = new subject();
+	    A1.name = "math";
+	    A1.marks = 99;
+	    A1.info();
+	    
+	    subject A2 = new subject();
+	    A1.name = "physics";
+	    A1.marks = 98;
+	    A1.info();
+	    
+	    
+
+	}
+}
