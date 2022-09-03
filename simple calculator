@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+public class calc
+{
+	public static void main(String[] args) {
+		
+   
+   Scanner sc = new Scanner(System.in);
+
+   System.out.println("Enter values of a ,b : \n ");
+   float a =sc.nextFloat();
+   float b =sc.nextFloat(); 
+    
+   {
+    System.out.println("enter 1 for add \n , 2 for subs \n, 3 for  multi \n, 4 for div \n and 5 for get remainer \n");
+    int n =sc.nextInt();     
+    
+
+
+      switch (n)  {
+        
+        case 1 :
+
+        float x = a +b ;
+         System.out.println(x);
+         break;
+
+
+         case 2 :
+
+         float y = a  - b ;
+          System.out.println(y);
+         break;
+       
+         
+         case 3 :
+
+         float z = a * b ;
+          System.out.println(z);
+         break;
+
+
+         
+         case 4 :
+
+         float g = a / b ;
+          System.out.println(g);
+         break;
+
+         
+         case 5 :
+
+         float u = a % b ;
+          System.out.println(u);
+         break;
+
+         default:
+         System.out.println("wrong chice");
+         
+
+      }
+     
+      
+
+
+    
+
+
+
+   }
+
+	}
+}
